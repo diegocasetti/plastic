@@ -97,7 +97,7 @@ class Blueprint
      */
     public function string($field, $attributes = [])
     {
-        return $this->addField('string', $field, $attributes);
+        return $this->addField('text', $field, $attributes);
     }
 
     /**
